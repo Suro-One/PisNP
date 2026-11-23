@@ -9,7 +9,7 @@ The central result is a conditional equivalence:
 This gives a precise language for studying what a separation proof would need to establish: every finite admissible family of partial solvers for SAT must leave at least one input unanswered by every solver in the family.
 
 > [!IMPORTANT]
-> **This project does not prove or refute P = NP.** The main results are equivalences derived from the assumptions in `CModel`. The file does not instantiate that structure with a concrete Turing-machine complexity model, and it is currently marked as untested against a full Lean build.
+> **This project does not prove or refute P = NP.** The main results are equivalences derived from the assumptions in `CModel`. The file does not instantiate that structure with a concrete Turing-machine complexity model, and it is currently marked as tested against a full Lean build.
 
 ## Status
 
